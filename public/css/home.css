@@ -2,6 +2,50 @@
     background-color: #F15D2A;
 }
 
+
+
+  
+  .card-images-tutorial {
+    width: 18rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    display: flex;
+    
+  }
+  
+  .images-card {
+    flex: 0 0 50%;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .images-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-body-tutorial {
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-title-tutorial {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+
+
+
+*/card */
+
 .container {
     display: flex;
     flex-wrap: wrap;
